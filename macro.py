@@ -99,10 +99,10 @@ def showBinaryMask(dataset, converter):
 ### Additionally, the folder processing code was written to accomodate for the fact that 
 ### some of the .traces files were NOT named the same as the images, but rather "SNT_Data.traces".
 ### Only the first .traces file found in the directory will be used.
-input = "Z:/Ophthalmology/Research/SchwartzLab/Maribel/Vincent/MEA_Brain_Slices/raw"
+input = ""
 
 ### Change this to the desired output directory
-output = "Z:/Ophthalmology/Research/SchwartzLab/Maribel/Vincent/MEA_Brain_Slices/processed/masks/"
+output = ""
 
 ### Change this if you want to use a different file type. Only tested .nd2 files.
 suffix = ".nd2"
